@@ -101,13 +101,40 @@ html{
 .services{
     background: #bbb;
 }
+.services_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    margin-left: 8vw;
+    width: 80vw;
+}
 .service_card1{
-    width: 25vw;
-    height: 30vh;
+    /* width: 25vw; */
+    height: 35vh;
     padding: 1vw;
     text-align: center;
     background-color: white;
 }
 .card_img{
-    width: 5vw;
+    /* width: 10vw; */
+    color: white;
+    background-color: black;
+    /* height: 8vh; */
+    padding: 2vh;
+    border-radius: 50%;
+}
+
+
+
+
+
+.portfolio_grids{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80vw;
+    margin-left: 10vw;
+}
+.portfolio_img{
+    width: 25vw;
+    height: 35vh;
 }
