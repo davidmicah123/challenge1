@@ -100,6 +100,9 @@ html{
 
 .services{
     background: #bbb;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    margin-bottom: 6vh;
 }
 .services_cards{
     display: grid;
@@ -128,13 +131,41 @@ html{
 
 
 
-.portfolio_grids{
+.portfolio_top{
+    text-align: center;
+}
+/* .portfolio_btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1vw;
+    width: 30vw;
+} */
+.all_btn{
+    /* width: 100%; */
+    padding: 1vh;
+    background-color: #bbb;
+    border: 0;
+    border-radius: 0.2em;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.all_btn:hover{
+    /* width: 100%; */
+    padding: 1vh;
+    background-color: dodgerblue;
+    border: 0;
+    border-radius: 0.2em;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.portfolio_grid1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 80vw;
     margin-left: 10vw;
+    margin-top: 3vh;
 }
 .portfolio_img{
     width: 25vw;
-    height: 35vh;
+    height: 55vh;
 }
