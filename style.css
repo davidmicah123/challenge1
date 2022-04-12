@@ -104,6 +104,13 @@ html{
     padding-bottom: 6vh;
     margin-bottom: 6vh;
 }
+.services_top{
+    text-align: center;
+    margin-bottom: 3vh;
+}
+.services_top small{
+    font-size: 3vh;
+}
 .services_cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -121,11 +128,27 @@ html{
 .card_img{
     /* width: 10vw; */
     color: white;
-    background-color: black;
+    background-color: rgb(16, 107, 197);
     /* height: 8vh; */
     padding: 2vh;
     border-radius: 50%;
 }
+.all_service_p{
+    text-align: center;
+    margin-top: 3vh;
+}
+.all_services{
+    padding: 2vh;
+    color: white;
+    border: 0;
+    font-weight: bolder;
+    border-radius: 0.2em;
+    background-color: rgb(16, 107, 197);
+}
+
+
+
+
 
 
 
@@ -192,4 +215,17 @@ html{
     display: grid;
     grid-template-columns: 1fr;
     align-content: center;
+}
+.agency_txt small{
+    color: dodgerblue;
+}
+.agency_text1{
+    font-size: 3vh;
+    margin-top: 3vh;
+    color: rgba(0, 0, 0, 0.712);
+}
+.agency_text2{
+    font-size: 3vh;
+    margin-top: 3vh;
+    color: rgba(0, 0, 0, 0.712);
 }
