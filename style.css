@@ -40,4 +40,74 @@ html{
 .about_grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 1vw;
+    width: 80%;
+    margin-left: 9vw;
+    margin-top: 3vw;
+}
+
+.about_img1{
+    width: 25vw;
+    height: 35vh;
+}
+.about_img2{
+    width: 25vw;
+    height: 35vh;
+    position: absolute;
+    right: 15vw;
+    margin-top: 10vh;
+    /* top: 10vh; */
+}
+
+.about_grid1 h1{
+    font-size: 3vh;
+    color: rgb(27, 27, 216);
+}
+.about_grid1 h2{
+    font-size: 5vh;
+}
+.about_grid1 p{
+    font-size: 3vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.about_grid1 small{
+    font-size: 3vh;
+    font-weight: bolder;
+}
+
+
+
+
+
+.counter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 10vw;
+}
+.number{
+    font-size: 6vh;
+    color: rgb(19, 106, 192);
+}
+.label{
+    font-size: 3vh;
+    color: rgba(0, 0, 0, 0.616);
+}
+
+
+
+
+
+.services{
+    background: #bbb;
+}
+.service_card1{
+    width: 25vw;
+    height: 30vh;
+    padding: 1vw;
+    text-align: center;
+    background-color: white;
+}
+.card_img{
+    width: 5vw;
 }
