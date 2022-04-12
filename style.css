@@ -169,3 +169,27 @@ html{
     width: 25vw;
     height: 55vh;
 }
+
+
+
+
+
+
+
+
+.agency{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1vw;
+    width: 80vw;
+    margin-left: 10vw;
+}
+.agency_video{
+    width: 40vw;
+    height: 100vh;
+}
+.agency_txt{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+}
