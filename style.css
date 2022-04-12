@@ -33,3 +33,11 @@ html{
 .nav_content p{
     font-size: 4vh;
 }
+
+
+
+
+.about_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
